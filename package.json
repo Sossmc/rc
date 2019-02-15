@@ -1,7 +1,7 @@
 {
   "name": "rc",
   "version": "0.1.0",
-  "homepage": "https://sossmc.github.io/rc",
+  "homepage": "https://sossmc.zjuqsc.top",
   "private": true,
   "dependencies": {
     "react": "^16.8.1",
