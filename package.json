@@ -4,7 +4,11 @@
   "homepage": "https://sossmc.zjuqsc.top",
   "private": true,
   "dependencies": {
+    "antd": "^3.13.2",
+    "babel-plugin-import": "^1.11.0",
+    "customize-cra": "^0.2.11",
     "react": "^16.8.1",
+    "react-app-rewired": "^2.1.0",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.5"
   },
@@ -17,8 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "react-app-rewired build",
+    "deploy": "echo \"sossmc.zjuqsc.top\" > build/CNAME",
+    "posteploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
