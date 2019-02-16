@@ -21,9 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "react-app-rewired build",
-    "deploy": "echo \"sossmc.zjuqsc.top\" > build/CNAME",
-    "posteploy": "gh-pages -d build"
+    "predeploy": "react-app-rewired build && echo \"sossmc.zjuqsc.top\" > build/CNAME",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

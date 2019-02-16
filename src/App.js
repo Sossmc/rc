@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button type="primary">Button</Button>
+        <Button type="primary">Button2</Button>
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
