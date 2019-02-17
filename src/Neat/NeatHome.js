@@ -94,7 +94,7 @@ class Ncontainer extends Component{
                   </span>
 
                   <h5 class="u-mb-xsmall">Github Pages项目</h5>
-                  <p class="u-mb-medium">It's main about this,事実はそが</p>
+                  <p class="u-mb-medium">It's dev version this site,事実はそが</p>
                   <a href="https://sossmc.zjuqsc.top" class="c-btn c-btn--info has-arrow">
                     More About<i class="feather icon-chevron-right"></i>
                   </a>

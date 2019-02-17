@@ -23,6 +23,7 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
+    "migrate": "react-app-rewired build && cp -R build/* ../sossmc.github.io/",
     "predeploy": "react-app-rewired build && echo \"sossmc.zjuqsc.top\" > build/CNAME",
     "deploy": "gh-pages -d build"
   },
