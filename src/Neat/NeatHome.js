@@ -28,7 +28,7 @@ class Nheader extends Component {
                   <a class="c-navbar__nav-link" href="/">Home</a>
                 </li>
                 <li class="c-navbar__nav-item">
-                  <a class="c-navbar__nav-link" href="/Dashboard">Portofolio</a>
+                  <a class="c-navbar__nav-link" href="/resume">Resume</a>
                 </li>
                 <li class="c-navbar__nav-item">
                   <a class="c-navbar__nav-link" href="https://sossmc.github.io/faq">Faq</a></li>
@@ -95,7 +95,7 @@ class Ncontainer extends Component{
 
                   <h5 class="u-mb-xsmall">Github Pages项目</h5>
                   <p class="u-mb-medium">It's dev version this site,事実はそが</p>
-                  <a href="https://sossmc.zjuqsc.top" class="c-btn c-btn--info has-arrow">
+                  <a href="https://sossmc.github.io/rc" class="c-btn c-btn--info has-arrow">
                     More About<i class="feather icon-chevron-right"></i>
                   </a>
                 </div>
@@ -134,7 +134,7 @@ class Nfooter extends Component{
           <span class="c-footer__divider">|</span>
           <nav>
             <a class="c-footer__link" href="https://github.com/sossmc">Github</a>
-            <a class="c-footer__link" href="https://sossmc.github.io/portofolio">Portofolio</a>
+            <a class="c-footer__link" href="https://sossmc.github.io/resume">Portofolio</a>
             <a class="c-footer__link" href="https://sossmc.github.io/faq">FAQ</a>
             <a class="c-footer__link" href="https://sossmc.github.io/help">Help</a>
           </nav>
