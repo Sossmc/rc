@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './css/neat.css';
 //import './js/neat';
-class NeatHome extends Component {
-  render() {
+function NeatHome(){
     return (
       <div className="o-page">
         <Nheader>
@@ -11,7 +10,6 @@ class NeatHome extends Component {
         </Ncontainer>
       </div>
     );
-  }
 }
 
 class Nheader extends Component {
