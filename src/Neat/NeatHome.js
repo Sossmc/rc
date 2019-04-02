@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './css/neat.css';
+import Clock from '../Component/Clock.js';
 //import './js/neat';
 function NeatHome(){
     return (
@@ -136,6 +137,7 @@ class Nfooter extends Component{
             <a class="c-footer__link" href="https://sossmc.github.io/faq">FAQ</a>
             <a class="c-footer__link" href="https://sossmc.github.io/help">Help</a>
           </nav>
+          <Clock />
         </footer>
       </div>
       
