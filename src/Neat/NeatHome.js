@@ -47,10 +47,11 @@ class Ncontainer extends Component{
           <div class="container">
             <div class="row u-justify-center">
               <div class="col-lg-6 u-text-center">
-                <h2 class="u-mb-small">你好呀！欢迎来到鸡腿茶的面板</h2>
+                <h2 class="u-mb-small">你好呀！欢迎来到鸡腿茶的个人网站</h2>
                 <p class="u-text-large u-mb-large">
-                  This is the homepage of Richard Jei, 
-                  welcome and enjoy exploring.
+                  This is the homepage of Richard Jei, welcome and enjoy exploring.
+                  <br />
+                  There were too many things unrecorded, which is a pity.
                 </p>
               </div>
             </div>
